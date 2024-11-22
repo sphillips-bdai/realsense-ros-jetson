@@ -87,6 +87,10 @@ configurable_parameters = [{'name': 'camera_name',                  'default': '
                            {'name': 'hdr_merge.enable',             'default': 'false', 'description': 'hdr_merge filter enablement flag'},
                            {'name': 'wait_for_device_timeout',      'default': '-1.', 'description': 'Timeout for waiting for device to connect (Seconds)'},
                            {'name': 'reconnect_timeout',            'default': '6.', 'description': 'Timeout(seconds) between consequtive reconnection attempts'},
+                           {'name': 'ffmpeg_image_transport.encoding', 'default': 'hevc_nvmpi', 'description': 'Encoding (see ffmpeg -codecs for options)'},
+                           {'name': 'ffmpeg_image_transport.profile', 'default': 'main', 'description': 'Encoding profile'},
+                           {'name': 'ffmpeg_image_transport.preset', 'default': 'default', 'description': 'Encoding preset'},
+                           {'name': 'ffmpeg_image_transport.gop', 'default': '15', 'description': 'Encoding gop'},
                           ]
 
 def declare_configurable_parameters(parameters):
