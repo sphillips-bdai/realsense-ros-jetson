@@ -85,7 +85,7 @@ configurable_parameters = [{'name': 'camera_name',                  'default': '
                            {'name': 'reconnect_timeout',            'default': '6.', 'description': 'Timeout(seconds) between consequtive reconnection attempts'},
                            {'name': 'ffmpeg_image_transport.encoding', 'default': 'hevc_nvmpi', 'description': 'Encoding (see ffmpeg -codecs for options)'},
                            {'name': 'ffmpeg_image_transport.profile', 'default': 'main', 'description': 'Encoding profile'},
-                           {'name': 'ffmpeg_image_transport.preset', 'default': 'll', 'description': 'Encoding preset'},
+                           {'name': 'ffmpeg_image_transport.preset', 'default': 'default', 'description': 'Encoding preset'},
                            {'name': 'ffmpeg_image_transport.gop', 'default': '15', 'description': 'Encoding gop'},
                           ]
 
